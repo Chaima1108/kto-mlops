@@ -9,6 +9,7 @@ input_directory = BASE_PATH / "input"
 
 
 class TestInference(unittest.TestCase):
+    
 
     def test_inference(self):
         inference = Inference(str((input_directory / "model" / "final_model.keras")))
