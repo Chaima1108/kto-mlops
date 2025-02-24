@@ -658,6 +658,8 @@ sudo rm -rf mlruns/
 Il faut également néttoyer vos images docker en trop. Utilisez la commande suivante :
 ```bash
 docker system prune
+
+docker system prune
 ```
 
 ### Exécution dans kto-mlflow
@@ -889,6 +891,7 @@ Vous devriez avoir ce genre de réponses dans votre terminal :
 Ce n'est pas encore complètement terminé, pour que le mode "kubernetes" de mlflow fonctionne, vous devez installer la
 dépendance python suivante:
 ```bash
+pip install mlflow[extras]
 pip install mlflow[extras]
 ```
 
